@@ -1,0 +1,95 @@
+/* Estilo para o arquivo style.css */
+
+/* Reset básico para o site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f9ff; /* Azul bem clarinho */
+    color: #333;
+}
+
+/* Cabeçalho principal */
+header {
+    background: linear-gradient(135deg, #0078d4, #00c6ff);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Menu de Navegação */
+nav {
+    background-color: #003a6b;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700; /* Amarelo ouro no hover */
+}
+
+/* Conteúdo */
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #0078d4;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #00c6ff;
+    display: inline-block;
+}
+
+/* Botão interativo */
+button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    background-color: #005a9e;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #333;
+    color: white;
+    margin-top: 4rem;
+}
